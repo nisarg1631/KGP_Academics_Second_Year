@@ -1,0 +1,21 @@
+Circuit: * C:\Users\nisar\My Files\IIT Kharagpur\SecondYear\Signet\LAB\exp1\Draft1.asc
+
+.OP point found by inspection.
+
+Date: Fri Sep 25 19:49:23 2020
+Total elapsed time: 1.946 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 500074
+traniter = 500074
+tranpoints = 250038
+accept = 250037
+rejected = 1
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1:      26 opcodes  0.1/[0.0]/0.1
+Matrix Compiler2: 549 bytes object code size  0.1/0.1/[0.0]
+

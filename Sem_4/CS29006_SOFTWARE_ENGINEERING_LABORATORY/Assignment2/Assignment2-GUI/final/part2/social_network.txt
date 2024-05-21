@@ -1,0 +1,12 @@
+#users
+<nisarg: kaushal, pranav, animesh>
+<animesh: pranav, rohit, nisarg, shobhyam>
+<pranav: animesh, rohit>
+<kaushal: nisarg>
+<rohit: nisarg, animesh, pranav>
+<shobhyam: animesh, pranav>
+#groups
+<group1: nisarg, kaushal>
+<group2: animesh, nisarg, shobhyam>
+<group3: nisarg, pranav, animesh, rohit>
+<group4: nisarg, pranav, animesh, rohit, kaushal>

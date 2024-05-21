@@ -1,0 +1,440 @@
+Test Case 1
+r = 3
+s = 3
+t = -1
+a0 = -7
+a1 = -7
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (-3)x + (-3) = 0
+	Root 1 = (3 + sqrt(21)) / 2
+	Root 2 = (3 - sqrt(21)) / 2
+	Homogeneous solution :
+	[(-21 + sqrt(21)) / 6] [(3 + sqrt(21)) / 2]^n + [(-21 - sqrt(21)) / 6] [(3 - sqrt(21)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (-3)x + (-3) = 0
+	Root 1 = (3 + sqrt(21)) / 2
+	Root 2 = (3 - sqrt(21)) / 2
+	Particular solution : 1 / 5
+	Homogeneous solution :
+	[(-126 + 6 sqrt(21)) / 35] [(3 + sqrt(21)) / 2]^n + [(-126 - 6 sqrt(21)) / 35] [(3 - sqrt(21)) / 2]^n
+
+Test Case 2
+r = -8
+s = 0
+t = -4
+a0 = -5
+a1 = -3
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (8)x + (0) = 0
+	Root 1 = 0
+	Root 2 = -8
+	Homogeneous solution :
+	[-43 / 8] [0]^n + [3 / 8] [-8]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (8)x + (0) = 0
+	Root 1 = 0
+	Root 2 = -8
+	Particular solution : -4 / 9
+	Homogeneous solution :
+	[-39 / 8] [0]^n + [23 / 72] [-8]^n
+
+Test Case 3
+r = 2
+s = 7
+t = -4
+a0 = -1
+a1 = -10
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (-2)x + (-7) = 0
+	Root 1 = 1 + sqrt(8)
+	Root 2 = 1 - sqrt(8)
+	Homogeneous solution :
+	[(-8 - 9 sqrt(8)) / 16] [1 + sqrt(8)]^n + [(-8 + 9 sqrt(8)) / 16] [1 - sqrt(8)]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (-2)x + (-7) = 0
+	Root 1 = 1 + sqrt(8)
+	Root 2 = 1 - sqrt(8)
+	Particular solution : 1 / 2
+	Homogeneous solution :
+	[(-12 - 9 sqrt(8)) / 16] [1 + sqrt(8)]^n + [(-12 + 9 sqrt(8)) / 16] [1 - sqrt(8)]^n
+
+Test Case 4
+r = 9
+s = -6
+t = -6
+a0 = 9
+a1 = 0
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (-9)x + (6) = 0
+	Root 1 = (9 + sqrt(57)) / 2
+	Root 2 = (9 - sqrt(57)) / 2
+	Homogeneous solution :
+	[(171 - 27 sqrt(57)) / 38] [(9 + sqrt(57)) / 2]^n + [(171 + 27 sqrt(57)) / 38] [(9 - sqrt(57)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (-9)x + (6) = 0
+	Root 1 = (9 + sqrt(57)) / 2
+	Root 2 = (9 - sqrt(57)) / 2
+	Particular solution : 3
+	Homogeneous solution :
+	[(57 - 10 sqrt(57)) / 19] [(9 + sqrt(57)) / 2]^n + [(57 + 10 sqrt(57)) / 19] [(9 - sqrt(57)) / 2]^n
+
+Test Case 5
+r = 0
+s = 4
+t = -6
+a0 = 9
+a1 = 7
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (0)x + (-4) = 0
+	Root 1 = 2
+	Root 2 = -2
+	Homogeneous solution :
+	[25 / 4] [2]^n + [11 / 4] [-2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (0)x + (-4) = 0
+	Root 1 = 2
+	Root 2 = -2
+	Particular solution : 2
+	Homogeneous solution :
+	[19 / 4] [2]^n + [9 / 4] [-2]^n
+
+Test Case 6
+r = 0
+s = -8
+t = -4
+a0 = -9
+a1 = -3
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (0)x + (8) = 0
+	Root 1 = sqrt(-8)
+	Root 2 = - sqrt(-8)
+	Homogeneous solution :
+	[(-72 + 3 sqrt(-8)) / 16] [sqrt(-8)]^n + [(-72 - 3 sqrt(-8)) / 16] [- sqrt(-8)]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (0)x + (8) = 0
+	Root 1 = sqrt(-8)
+	Root 2 = - sqrt(-8)
+	Particular solution : -4 / 9
+	Homogeneous solution :
+	[(-616 + 23 sqrt(-8)) / 144] [sqrt(-8)]^n + [(-616 - 23 sqrt(-8)) / 144] [- sqrt(-8)]^n
+
+Test Case 7
+r = -3
+s = 3
+t = 2
+a0 = 10
+a1 = 1
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (3)x + (-3) = 0
+	Root 1 = (-3 + sqrt(21)) / 2
+	Root 2 = (-3 - sqrt(21)) / 2
+	Homogeneous solution :
+	[(105 + 16 sqrt(21)) / 21] [(-3 + sqrt(21)) / 2]^n + [(105 - 16 sqrt(21)) / 21] [(-3 - sqrt(21)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (3)x + (-3) = 0
+	Root 1 = (-3 + sqrt(21)) / 2
+	Root 2 = (-3 - sqrt(21)) / 2
+	Particular solution : 2
+	Homogeneous solution :
+	[(84 + 11 sqrt(21)) / 21] [(-3 + sqrt(21)) / 2]^n + [(84 - 11 sqrt(21)) / 21] [(-3 - sqrt(21)) / 2]^n
+
+Test Case 8
+r = -9
+s = 2
+t = -10
+a0 = -8
+a1 = -5
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (9)x + (-2) = 0
+	Root 1 = (-9 + sqrt(89)) / 2
+	Root 2 = (-9 - sqrt(89)) / 2
+	Homogeneous solution :
+	[(-356 - 41 sqrt(89)) / 89] [(-9 + sqrt(89)) / 2]^n + [(-356 + 41 sqrt(89)) / 89] [(-9 - sqrt(89)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (9)x + (-2) = 0
+	Root 1 = (-9 + sqrt(89)) / 2
+	Root 2 = (-9 - sqrt(89)) / 2
+	Particular solution : -5 / 4
+	Homogeneous solution :
+	[(-2403 - 273 sqrt(89)) / 712] [(-9 + sqrt(89)) / 2]^n + [(-2403 + 273 sqrt(89)) / 712] [(-9 - sqrt(89)) / 2]^n
+
+Test Case 9
+r = -3
+s = 2
+t = 9
+a0 = -1
+a1 = -8
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (3)x + (-2) = 0
+	Root 1 = (-3 + sqrt(17)) / 2
+	Root 2 = (-3 - sqrt(17)) / 2
+	Homogeneous solution :
+	[(-17 - 19 sqrt(17)) / 34] [(-3 + sqrt(17)) / 2]^n + [(-17 + 19 sqrt(17)) / 34] [(-3 - sqrt(17)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (3)x + (-2) = 0
+	Root 1 = (-3 + sqrt(17)) / 2
+	Root 2 = (-3 - sqrt(17)) / 2
+	Particular solution : 9 / 2
+	Homogeneous solution :
+	[(-187 - 83 sqrt(17)) / 68] [(-3 + sqrt(17)) / 2]^n + [(-187 + 83 sqrt(17)) / 68] [(-3 - sqrt(17)) / 2]^n
+
+Test Case 10
+r = -2
+s = 2
+t = -10
+a0 = 2
+a1 = -2
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (2)x + (-2) = 0
+	Root 1 = -1 + sqrt(3)
+	Root 2 = -1 - sqrt(3)
+	Homogeneous solution :
+	[1] [-1 + sqrt(3)]^n + [1] [-1 - sqrt(3)]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (2)x + (-2) = 0
+	Root 1 = -1 + sqrt(3)
+	Root 2 = -1 - sqrt(3)
+	Particular solution : -10
+	Homogeneous solution :
+	[(18 + 10 sqrt(3)) / 3] [-1 + sqrt(3)]^n + [(18 - 10 sqrt(3)) / 3] [-1 - sqrt(3)]^n
+
+Test Case 11
+r = 3
+s = 7
+t = -5
+a0 = 8
+a1 = 6
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (-3)x + (-7) = 0
+	Root 1 = (3 + sqrt(37)) / 2
+	Root 2 = (3 - sqrt(37)) / 2
+	Homogeneous solution :
+	[(148 - 6 sqrt(37)) / 37] [(3 + sqrt(37)) / 2]^n + [(148 + 6 sqrt(37)) / 37] [(3 - sqrt(37)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (-3)x + (-7) = 0
+	Root 1 = (3 + sqrt(37)) / 2
+	Root 2 = (3 - sqrt(37)) / 2
+	Particular solution : 5 / 9
+	Homogeneous solution :
+	[(2479 - 103 sqrt(37)) / 666] [(3 + sqrt(37)) / 2]^n + [(2479 + 103 sqrt(37)) / 666] [(3 - sqrt(37)) / 2]^n
+
+Test Case 12
+r = -5
+s = 8
+t = 9
+a0 = 10
+a1 = 2
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (5)x + (-8) = 0
+	Root 1 = (-5 + sqrt(57)) / 2
+	Root 2 = (-5 - sqrt(57)) / 2
+	Homogeneous solution :
+	[(95 + 9 sqrt(57)) / 19] [(-5 + sqrt(57)) / 2]^n + [(95 - 9 sqrt(57)) / 19] [(-5 - sqrt(57)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (5)x + (-8) = 0
+	Root 1 = (-5 + sqrt(57)) / 2
+	Root 2 = (-5 - sqrt(57)) / 2
+	Particular solution : -9 / 2
+	Homogeneous solution :
+	[(29 + 3 sqrt(57)) / 4] [(-5 + sqrt(57)) / 2]^n + [(29 - 3 sqrt(57)) / 4] [(-5 - sqrt(57)) / 2]^n
+
+Test Case 13
+r = 1
+s = 1
+t = -9
+a0 = 8
+a1 = 4
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (-1)x + (-1) = 0
+	Root 1 = (1 + sqrt(5)) / 2
+	Root 2 = (1 - sqrt(5)) / 2
+	Homogeneous solution :
+	[4] [(1 + sqrt(5)) / 2]^n + [4] [(1 - sqrt(5)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (-1)x + (-1) = 0
+	Root 1 = (1 + sqrt(5)) / 2
+	Root 2 = (1 - sqrt(5)) / 2
+	Particular solution : 9
+	Homogeneous solution :
+	[(-5 - 9 sqrt(5)) / 10] [(1 + sqrt(5)) / 2]^n + [(-5 + 9 sqrt(5)) / 10] [(1 - sqrt(5)) / 2]^n
+
+Test Case 14
+r = -2
+s = 1
+t = 2
+a0 = 0
+a1 = 4
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (2)x + (-1) = 0
+	Root 1 = -1 + sqrt(2)
+	Root 2 = -1 - sqrt(2)
+	Homogeneous solution :
+	[sqrt(2)] [-1 + sqrt(2)]^n + [- sqrt(2)] [-1 - sqrt(2)]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (2)x + (-1) = 0
+	Root 1 = -1 + sqrt(2)
+	Root 2 = -1 - sqrt(2)
+	Particular solution : 1
+	Homogeneous solution :
+	[(-1 + sqrt(2)) / 2] [-1 + sqrt(2)]^n + [(-1 - sqrt(2)) / 2] [-1 - sqrt(2)]^n
+
+Test Case 15
+r = -2
+s = 8
+t = 0
+a0 = -5
+a1 = -7
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (2)x + (-8) = 0
+	Root 1 = 2
+	Root 2 = -4
+	Homogeneous solution :
+	[-9 / 2] [2]^n + [-1 / 2] [-4]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (2)x + (-8) = 0
+	Root 1 = 2
+	Root 2 = -4
+	Particular solution : 0
+	Homogeneous solution :
+	[-9 / 2] [2]^n + [-1 / 2] [-4]^n
+
+Test Case 16
+r = 3
+s = -3
+t = 3
+a0 = -6
+a1 = 5
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (-3)x + (3) = 0
+	Root 1 = (3 + sqrt(-3)) / 2
+	Root 2 = (3 - sqrt(-3)) / 2
+	Homogeneous solution :
+	[(-9 - 14 sqrt(-3)) / 3] [(3 + sqrt(-3)) / 2]^n + [(-9 + 14 sqrt(-3)) / 3] [(3 - sqrt(-3)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (-3)x + (3) = 0
+	Root 1 = (3 + sqrt(-3)) / 2
+	Root 2 = (3 - sqrt(-3)) / 2
+	Particular solution : 3
+	Homogeneous solution :
+	[(-27 - 31 sqrt(-3)) / 6] [(3 + sqrt(-3)) / 2]^n + [(-27 + 31 sqrt(-3)) / 6] [(3 - sqrt(-3)) / 2]^n
+
+Test Case 17
+r = -1
+s = 7
+t = 3
+a0 = 10
+a1 = -2
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (1)x + (-7) = 0
+	Root 1 = (-1 + sqrt(29)) / 2
+	Root 2 = (-1 - sqrt(29)) / 2
+	Homogeneous solution :
+	[(145 + 3 sqrt(29)) / 29] [(-1 + sqrt(29)) / 2]^n + [(145 - 3 sqrt(29)) / 29] [(-1 - sqrt(29)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (1)x + (-7) = 0
+	Root 1 = (-1 + sqrt(29)) / 2
+	Root 2 = (-1 - sqrt(29)) / 2
+	Particular solution : -3 / 5
+	Homogeneous solution :
+	[(1537 + 39 sqrt(29)) / 290] [(-1 + sqrt(29)) / 2]^n + [(1537 - 39 sqrt(29)) / 290] [(-1 - sqrt(29)) / 2]^n
+
+Test Case 18
+r = 9
+s = 9
+t = 5
+a0 = -1
+a1 = 3
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (-9)x + (-9) = 0
+	Root 1 = (9 + sqrt(117)) / 2
+	Root 2 = (9 - sqrt(117)) / 2
+	Homogeneous solution :
+	[(-39 + 5 sqrt(117)) / 78] [(9 + sqrt(117)) / 2]^n + [(-39 - 5 sqrt(117)) / 78] [(9 - sqrt(117)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (-9)x + (-9) = 0
+	Root 1 = (9 + sqrt(117)) / 2
+	Root 2 = (9 - sqrt(117)) / 2
+	Particular solution : -5 / 17
+	Homogeneous solution :
+	[(-702 + 110 sqrt(117)) / 1989] [(9 + sqrt(117)) / 2]^n + [(-702 - 110 sqrt(117)) / 1989] [(9 - sqrt(117)) / 2]^n
+
+Test Case 19
+r = -7
+s = -1
+t = 0
+a0 = -9
+a1 = 10
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (7)x + (1) = 0
+	Root 1 = (-7 + sqrt(45)) / 2
+	Root 2 = (-7 - sqrt(45)) / 2
+	Homogeneous solution :
+	[(-405 - 43 sqrt(45)) / 90] [(-7 + sqrt(45)) / 2]^n + [(-405 + 43 sqrt(45)) / 90] [(-7 - sqrt(45)) / 2]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (7)x + (1) = 0
+	Root 1 = (-7 + sqrt(45)) / 2
+	Root 2 = (-7 - sqrt(45)) / 2
+	Particular solution : 0
+	Homogeneous solution :
+	[(-405 - 43 sqrt(45)) / 90] [(-7 + sqrt(45)) / 2]^n + [(-405 + 43 sqrt(45)) / 90] [(-7 - sqrt(45)) / 2]^n
+
+Test Case 20
+r = 8
+s = 5
+t = -9
+a0 = 5
+a1 = 1
+
++++ Solving the homogeneous recurrence
+	Characteristic equation: x^2 + (-8)x + (-5) = 0
+	Root 1 = 4 + sqrt(21)
+	Root 2 = 4 - sqrt(21)
+	Homogeneous solution :
+	[(105 - 19 sqrt(21)) / 42] [4 + sqrt(21)]^n + [(105 + 19 sqrt(21)) / 42] [4 - sqrt(21)]^n
+
++++ Solving the nonhomogeneous recurrence
+	Characteristic equation: x^2 + (-8)x + (-5) = 0
+	Root 1 = 4 + sqrt(21)
+	Root 2 = 4 - sqrt(21)
+	Particular solution : 3 / 4
+	Homogeneous solution :
+	[(357 - 67 sqrt(21)) / 168] [4 + sqrt(21)]^n + [(357 + 67 sqrt(21)) / 168] [4 - sqrt(21)]^n
+

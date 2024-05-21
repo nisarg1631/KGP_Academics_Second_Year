@@ -1,0 +1,6 @@
+5
+IMP x
+IMP y
+x AND u IMP z
+NEG x OR NEG y OR NEG z
+y IMP z
